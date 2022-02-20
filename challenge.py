@@ -3,11 +3,8 @@ import random
 import matplotlib.pyplot as plt
 
 def main():
-    #findMean()
-    #return 0
-
     while True:
-        input1 = input("Please enter a short word: ")
+        input1 = input("Please enter a short word (press ENTER to exit): ")
         if input1 == "":
             break
         trials = generateWord(input1)
