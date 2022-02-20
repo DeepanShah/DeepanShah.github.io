@@ -1,7 +1,4 @@
-# Infinite Monkey Theorem Simulator
-## Deepan Shah's CS109 Challenge Project
-
-You can use the [editor on GitHub](https://github.com/DeepanShah/imt/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+#Play the simulator [here](https://replit.com/@DeepanShah/Infinite-Monkey-Simulator#main.py)!
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
