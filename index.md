@@ -1,4 +1,5 @@
-## Welcome to GitHub Pages
+## Infinite Monkey Theorem Simulator
+### Deepan Shah's CS109 Challenge Project
 
 You can use the [editor on GitHub](https://github.com/DeepanShah/imt/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
