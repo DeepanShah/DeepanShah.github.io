@@ -1,5 +1,5 @@
-## Infinite Monkey Theorem Simulator
-### Deepan Shah's CS109 Challenge Project
+# Infinite Monkey Theorem Simulator
+## Deepan Shah's CS109 Challenge Project
 
 You can use the [editor on GitHub](https://github.com/DeepanShah/imt/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
@@ -10,30 +10,6 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
 ```markdown
-`def main():
-    while True:
-        input1 = input("Please enter a short word: ")
-        if input1 == "":
-            break
-        trials = generateWord(input1)
-        print("Word generated! Monkey " + str(int(random.uniform(1, 100))) + " took " + str(trials) + " attempts to get the word!")
-
-def generateLetter():
-    alphabet = string.ascii_lowercase
-    randLetter = random.choice(alphabet)
-    return randLetter
-
-def generateWord(input):
-    numTrials = 0
-    str = ""
-    while str != input:
-        str = ""
-        numTrials += 1
-        for k in range(len(input)):
-            letter = generateLetter()
-            str += letter
-        if str == input:
-            return numTrials`
 Syntax highlighted code block
 
 # Header 1
