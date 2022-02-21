@@ -6,7 +6,8 @@ For my CS109 Challenge Project, I decided to write a simulator for the Infinite 
 In writing my code, I made multiple assumptions. The original theorem assumes that the monkey sits in front of a 50 key typewriter, but I chose to make the job easier on the monkey by providing the monkey a 26 key _mechanical keyboard_ that consists of only lowercase alphabetical letters. I also used the original theorem's assumption that each key is equally likely to be pressed by the monkey.
 
 The code itself is pretty simple. Here is the main chunk of code that does the monkey's work for them (sadly automation is even taking the jobs of monkeys...):
-`def generateWord(input):
+```markdown
+  def generateWord(input):
     numTrials = 0
     str = ""
     while str != input:
@@ -16,7 +17,8 @@ The code itself is pretty simple. Here is the main chunk of code that does the m
             letter = generateLetter()
             str += letter
         if str == input:
-            return numTrials`
+            return numTrials
+```
             
 After taking in an input word from the user, the code loops interminably until the string it creates matches the input string. We assume that our computer monkey knows how long of a word it needs to make, and also is blessed with the ability to know when the created word matches the input word. For each attempt the monkey makes, numTrials is incremented by one. At last, once the monkey is freed from its misery, it returns numTrials and takes a banana break.
 
