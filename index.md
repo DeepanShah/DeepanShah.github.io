@@ -1,7 +1,24 @@
 # Infinite Monkey Theorem Simulator
 ## Play the simulator [here](https://replit.com/@DeepanShah/Infinite-Monkey-Simulator#main.py)!
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+For my CS109 Challenge Project, I decided to write a simulator for the Infinite Monkey Theorem, which states that "a monkey hitting keys at random on a typewriter keyboard for an infinite amount of time will almost surely type any given text, such as the complete works of William Shakespeare" (Wikipedia). I had a lot of fun coding it up, and I hope you have fun playing with it and reading my write up! *No monkeys were harmed in the making of this project
+
+In writing my code, I made multiple assumptions. The original theorem assumes that the monkey sits in front of a 50 key typewriter, but I chose to make the job easier on the monkey by providing the monkey a 26 key _mechanical keyboard_ that consists of only lowercase alphabetical letters. I also used the original theorem's assumption that each key is equally likely to be pressed by the monkey.
+
+The code itself is pretty simple. Here is the main chunk of code that does the monkey's work for them (sadly automation is even taking the jobs of monkeys...):
+`def generateWord(input):
+    numTrials = 0
+    str = ""
+    while str != input:
+        str = ""
+        numTrials += 1
+        for k in range(len(input)):
+            letter = generateLetter()
+            str += letter
+        if str == input:
+            return numTrials`
+            
+After taking in an input word from the user, the code loops interminably until the string it creates matches the input string. We assume that our computer monkey knows how long of a word it needs to make, and also is blessed with the ability to know when the created word matches the input word. For each attempt the monkey makes, numTrials is incremented by one. At last, once the monkey is freed from its misery, it returns numTrials and takes a banana break.
 
 ### Markdown
 
