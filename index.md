@@ -54,7 +54,7 @@ For x = 10,000,000: (1- (1/50)^5)^10,000,000 = .968
 For x = 100,000,000: (1- (1/50)^5)^100,000,000 = .726
 For x = 1,000,000,000: (1- (1/50)^5)^1,000,000,000 = .041
 ```
-Thus, with a "string" as long as the complete works of Shakespeare and with an infinite number of blocks (and an infinite amount of time), a monkey could very well write the completed works of Shakespeare. We could also rapidly cut down on time by having an infinite number of monkeys working at the same time (where each monkey represents one block), but these days it's really hard to acquire an infinite amount of monkeys. Thus, I can say with absolute certainty that we will not see a monkey in our lifetime randomly type out the complete works of Shakespeare.
+With a "string" as long as the complete works of Shakespeare and with an infinite number of blocks (and an infinite amount of time), a monkey could very well write the completed works of Shakespeare. We could also rapidly cut down on time by having an infinite number of monkeys working at the same time (where each monkey represents one block), but these days it's really hard to acquire an infinite amount of monkeys. Thus, I can say with absolute certainty that we will not see a monkey in our lifetime randomly type out the complete works of Shakespeare.
 
 ![Alt Text](https://media.giphy.com/media/ySpxjJmsq9gsw/giphy.gif)
 
