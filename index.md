@@ -4,7 +4,9 @@
 ![Alt Text](https://media.giphy.com/media/f5BwvEFBcgzU4/giphy.gif)
 
 ### Intro
-For my CS109 Challenge Project, I decided to write a simulator for the Infinite Monkey Theorem, which states that "a monkey hitting keys at random on a typewriter keyboard for an infinite amount of time will almost surely type any given text, such as the complete works of William Shakespeare" (Wikipedia). I had a lot of fun coding it up, and I hope you have fun playing with it and reading my write up! *No monkeys were harmed in the making of this project
+For my CS109 Challenge Project, I decided to write a simulator for the Infinite Monkey Theorem, which states that "a monkey hitting keys at random on a typewriter keyboard for an infinite amount of time will almost surely type any given text, such as the complete works of William Shakespeare" (Wikipedia). I had a lot of fun coding it up, and I hope you have fun playing with it and reading my write up! 
+
+Disclaimer: No monkeys were harmed in the making of this project
 
 ### Code Explanation
 In writing my code, I made multiple assumptions. The original theorem assumes that the monkey sits in front of a 50 key typewriter, but I chose to make the job easier on the monkey by providing the monkey a 26 key keyboard that consists of only lowercase alphabetical letters. I also used the original theorem's assumption that each key is equally likely to be pressed by the monkey.
