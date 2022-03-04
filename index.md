@@ -49,7 +49,7 @@ Mean numTrials: 17253.6449
 The results follow what we expected as 25.98 is about 26, 673.29 is about 676 (26^2), and 17253.64 is about 17,576 (26^3). 
 
 This is all good and fun for our simulator, but what about generating a large text, like the complete works of Shakespeare like the theorem mentions?
-Using 50 equally likely keys as the theorem mentions (we need more keys to produce more complex texts than just lowercase words), the probability of not typing "hello" in a block of 5 letters is 1 - (1/50)^5 which equals .999 (with 5 additional 9s). However, the probability of not typing "hello" in x blocks decreases as x increases.
+Using 50 equally likely keys as the theorem mentions (we need more keys to produce more complex texts than just lowercase words), the probability of not typing "hello" in a block of 5 letters is 1 - (1/50)^5 which equals .999 (with 5 additional 9s) (Wikipedia). However, the probability of not typing "hello" in x blocks decreases as x increases.
 ```
 For x = 1,000,000: (1- (1/50)^5)^1,000,000 = .996
 For x = 10,000,000: (1- (1/50)^5)^10,000,000 = .968
